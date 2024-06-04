@@ -6,8 +6,11 @@ module and_gate_tb;
     and_gate u1 (.a(a), .b(b), .out(out));
 
     initial begin
-        // Test all possible input combinations
-        a = 0; b = 0; #10;
+        
+	// Test all possible input combinations
+        $dumpfile("and_gate_tb.vcd");
+	$dumpvars(0,and_gate_tb);
+	a = 0; b = 0; #10;
         a = 0; b = 1; #10;
         a = 1; b = 0; #10;
         a = 1; b = 1; #10;
