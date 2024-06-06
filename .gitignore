@@ -1,4 +1,8 @@
 *.vcd
 *.out
 *.vvp
+*.jou
+*.log
+*.pb
+
 
