@@ -1,0 +1,1 @@
+xsim {matha} -autoloadwcfg -runall
